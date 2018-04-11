@@ -10,3 +10,8 @@ There is also a sample driver script that bootstrap the python SDK and uses the 
 
 sample_driver.py
 
+# References for Python SDK
+
+Look here for reference on the SDK library
+https://developers.facebook.com/docs/marketing-api/reference/sdks/python/v2.12
+
