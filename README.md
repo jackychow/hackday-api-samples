@@ -13,5 +13,5 @@ sample_driver.py
 # References for Python SDK
 
 Look here for reference on the SDK library
-https://developers.facebook.com/docs/marketing-api/reference/sdks/python/v2.12
+https://developers.facebook.com/docs/marketing-api/reference/sdks/python/v3.1
 
