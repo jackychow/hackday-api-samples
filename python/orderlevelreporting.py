@@ -37,7 +37,7 @@ import Queue
 import sys
 import threading
 from datetime import date, datetime, time, timedelta
-from facebookads.api import FacebookAdsApi
+from facebook_business.api import FacebookAdsApi
 
 logger = logging.getLogger(__name__)
 

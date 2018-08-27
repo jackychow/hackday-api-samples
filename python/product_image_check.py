@@ -41,9 +41,9 @@ swapping is feasible.
 
 [1]: https://developers.facebook.com/docs/marketing-api/dynamic-product-ads/
 """
-from facebookads.adobjects.adaccountuser import AdAccountUser
-from facebookads.adobjects.business import Business
-from facebookads.adobjects.productcatalog import ProductCatalog
+from facebook_business.adobjects.adaccountuser import AdAccountUser
+from facebook_business.adobjects.business import Business
+from facebook_business.adobjects.productcatalog import ProductCatalog
 
 from PIL import ImageFile
 import urllib

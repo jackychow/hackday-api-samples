@@ -43,12 +43,12 @@ separate requests, the sample uses the batch API to send one request with all
 [2]: https://developers.facebook.com/docs/marketing-api/batch-requests
 """
 
-from facebookads.adobjects.adaccount import AdAccount
-from facebookads.adobjects.campaign import Campaign
-from facebookads.adobjects.adset import AdSet
-from facebookads.adobjects.ad import Ad
-from facebookads.adobjects.adimage import AdImage
-from facebookads.adobjects.adcreative import AdCreative
+from facebook_business.adobjects.adaccount import AdAccount
+from facebook_business.adobjects.campaign import Campaign
+from facebook_business.adobjects.adset import AdSet
+from facebook_business.adobjects.ad import Ad
+from facebook_business.adobjects.adimage import AdImage
+from facebook_business.adobjects.adcreative import AdCreative
 
 import itertools
 from utils import generate_batches

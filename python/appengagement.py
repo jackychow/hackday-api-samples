@@ -37,12 +37,12 @@ take users to a customized location within your app.
 
 [1]: https://developers.facebook.com/docs/ads-for-apps/mobile-app-ads-engagement
 """
-from facebookads.adobjects.campaign import Campaign
-from facebookads.adobjects.adset import AdSet
-from facebookads.adobjects.ad import Ad
-from facebookads.adobjects.adcreative import AdCreative
-from facebookads.adobjects.adimage import AdImage
-from facebookads.specs import ObjectStorySpec, LinkData
+from facebook_business.adobjects.campaign import Campaign
+from facebook_business.adobjects.adset import AdSet
+from facebook_business.adobjects.ad import Ad
+from facebook_business.adobjects.adcreative import AdCreative
+from facebook_business.adobjects.adimage import AdImage
+from facebook_business.specs import ObjectStorySpec, LinkData
 
 
 class AppEngagementSample:

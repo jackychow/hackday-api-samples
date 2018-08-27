@@ -33,11 +33,11 @@ This sample shows how to use the Custom Audiences API to analyse
 
 [1]: https://developers.facebook.com/docs/marketing-api/reference/custom-audience/
 """
-from facebookads.adobjects.adaccount import AdAccount
-from facebookads.adobjects.customaudience import CustomAudience
-from facebookads.adobjects.adset import AdSet
-from facebookads.adobjects.ad import Ad
-from facebookads.adobjects.adsinsights import AdsInsights
+from facebook_business.adobjects.adaccount import AdAccount
+from facebook_business.adobjects.customaudience import CustomAudience
+from facebook_business.adobjects.adset import AdSet
+from facebook_business.adobjects.ad import Ad
+from facebook_business.adobjects.adsinsights import AdsInsights
 
 
 class CustomAudienceAnalyseSample:

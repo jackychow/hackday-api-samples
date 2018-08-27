@@ -35,7 +35,7 @@ permission you should do is to try to get the user's list of ad accounts.
 
 [1]: https://developers.facebook.com/docs/reference/ads-api/adaccount
 """
-from facebookads.adobjects.adaccountuser import AdAccountUser
+from facebook_business.adobjects.adaccountuser import AdAccountUser
 
 
 class AdAccountsList:

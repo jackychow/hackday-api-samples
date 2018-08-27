@@ -34,8 +34,8 @@
 [2]: https://developers.facebook.com/docs/marketing-api/advideo/
 """
 
-from facebookads.adobjects.adaccount import AdAccount
-from facebookads.adobjects.advideo import AdVideo
+from facebook_business.adobjects.adaccount import AdAccount
+from facebook_business.adobjects.advideo import AdVideo
 
 
 class AdVideoMultiSample:

@@ -39,14 +39,14 @@ similarity and less with lower similarity level.
 
 [1]: https://developers.facebook.com/docs/marketing-api/lookalike-audience-targeting
 """
-from facebookads.adobjects.adimage import AdImage
-from facebookads.adobjects.adcreative import AdCreative
-from facebookads.adobjects.ad import Ad
-from facebookads.adobjects.adset import AdSet
-from facebookads.adobjects.campaign import Campaign
-from facebookads.adobjects.targeting import Targeting
-from facebookads.adobjects.customaudience import CustomAudience
-from facebookads.adobjects.lookalikespec import LookalikeSpec
+from facebook_business.adobjects.adimage import AdImage
+from facebook_business.adobjects.adcreative import AdCreative
+from facebook_business.adobjects.ad import Ad
+from facebook_business.adobjects.adset import AdSet
+from facebook_business.adobjects.campaign import Campaign
+from facebook_business.adobjects.targeting import Targeting
+from facebook_business.adobjects.customaudience import CustomAudience
+from facebook_business.adobjects.lookalikespec import LookalikeSpec
 
 
 

@@ -39,12 +39,12 @@ use the lead form UI component to input an existing lead form you created before
 
 [1]: https://developers.facebook.com/docs/marketing-api/guides/lead-ads
 """
-from facebookads.adobjects.campaign import Campaign
-from facebookads.adobjects.adset import AdSet
-from facebookads.adobjects.ad import Ad
-from facebookads.adobjects.adcreative import AdCreative
-from facebookads.adobjects.adimage import AdImage
-from facebookads.specs import ObjectStorySpec, LinkData
+from facebook_business.adobjects.campaign import Campaign
+from facebook_business.adobjects.adset import AdSet
+from facebook_business.adobjects.ad import Ad
+from facebook_business.adobjects.adcreative import AdCreative
+from facebook_business.adobjects.adimage import AdImage
+from facebook_business.specs import ObjectStorySpec, LinkData
 
 
 class LeadAdSample:

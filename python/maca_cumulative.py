@@ -41,7 +41,7 @@ moment.
 [2]: https://developers.facebook.com/docs/marketing-api/custom-audience-mobile/
 
 """
-from facebookads.adobjects.customaudience import CustomAudience
+from facebook_business.adobjects.customaudience import CustomAudience
 import json
 
 

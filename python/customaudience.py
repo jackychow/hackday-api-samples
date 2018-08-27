@@ -38,7 +38,7 @@ campaigns that target new customers and exclude existing ones.
 
 [1]: https://developers.facebook.com/docs/reference/ads-api/custom-audience-api
 """
-from facebookads.adobjects.customaudience import CustomAudience
+from facebook_business.adobjects.customaudience import CustomAudience
 
 
 class CustomAudienceSample:

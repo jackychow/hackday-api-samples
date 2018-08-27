@@ -1,14 +1,14 @@
-from facebookads.api import FacebookAdsApi
-from facebookads import adobjects
+from facebook_business.api import FacebookAdsApi
+from facebook_business import adobjects
 
 ## Importing samples
 from ads_reporting import AdsReportingSample
 from carousel_ad import CarouselAdSample
 
 ## Importing Ad objects
-from facebookads.adobjects.campaign import Campaign
-from facebookads.adobjects.adset import AdSet
-from facebookads.adobjects.targeting import Targeting
+from facebook_business.adobjects.campaign import Campaign
+from facebook_business.adobjects.adset import AdSet
+from facebook_business.adobjects.targeting import Targeting
 
 my_app_id = '<APP_ID>'
 my_app_secret = '<APP_SECRET>'

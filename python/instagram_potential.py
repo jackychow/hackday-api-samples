@@ -35,13 +35,13 @@ about which ads should be considered to have a campaign on Instagram.
 [1]: https://developers.facebook.com/docs/marketing-api/guides/instagramads/
 """
 import locale
-from facebookads.adobjects.adaccount import AdAccount
-from facebookads.adobjects.campaign import Campaign
-from facebookads.adobjects.adset import AdSet
-from facebookads.adobjects.adcreative import AdCreative
-from facebookads.adobjects.adpreview import AdPreview
-from facebookads import FacebookAdsApi
-from facebookads.exceptions import FacebookRequestError
+from facebook_business.adobjects.adaccount import AdAccount
+from facebook_business.adobjects.campaign import Campaign
+from facebook_business.adobjects.adset import AdSet
+from facebook_business.adobjects.adcreative import AdCreative
+from facebook_business.adobjects.adpreview import AdPreview
+from facebook_business import FacebookAdsApi
+from facebook_business.exceptions import FacebookRequestError
 import logging
 logger = logging.getLogger(__name__)
 

@@ -35,8 +35,8 @@ lookalike audiences in multiple countries at multiple similarity ratios.
 [1]: https://developers.facebook.com/docs/marketing-api/lookalike-audience-targeting
 """
 import itertools
-from facebookads.adobjects.customaudience import CustomAudience
-from facebookads.adobjects.lookalikespec import LookalikeSpec
+from facebook_business.adobjects.customaudience import CustomAudience
+from facebook_business.adobjects.lookalikespec import LookalikeSpec
 
 class MultipleLalSample:
     """

@@ -27,11 +27,11 @@ Network enabled on them but don't have it enabled yet. Also explained is a
 function to help enable Audience Network given a list of ad set ids.
 """
 
-from facebookads.adobjects.adaccount import AdAccount
-from facebookads.adobjects.campaign import Campaign
-from facebookads.adobjects.adset import AdSet
-from facebookads.adobjects.targeting import Targeting
-from facebookads.exceptions import FacebookError
+from facebook_business.adobjects.adaccount import AdAccount
+from facebook_business.adobjects.campaign import Campaign
+from facebook_business.adobjects.adset import AdSet
+from facebook_business.adobjects.targeting import Targeting
+from facebook_business.exceptions import FacebookError
 import copy
 
 

@@ -33,7 +33,7 @@ simulate inserting into DB.
 
 [1]: https://developers.facebook.com/docs/marketing-api/insights-api
 """
-from facebookads.adobjects.adaccount import AdAccount
+from facebook_business.adobjects.adaccount import AdAccount
 
 
 class AdsReportingSample:
